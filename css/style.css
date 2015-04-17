@@ -1,0 +1,82 @@
+body {
+    background-color: #1c1b20;
+    color: #648f00;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.jumbotron{
+    background-color: #1c1b20;
+}
+
+#login, #details {
+    margin-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    margin-top: 20px;
+    height: 400px;
+    width: 60%;
+}
+
+.profile, .album, .coverimg {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.addplaylist {
+    border-bottom: solid darkslategrey 1px;
+    border-top: solid darkslategrey 1px;
+    padding: 5px;
+
+}
+
+#maxDistance{
+    width: 50px;
+}
+
+.message {
+    margin-left: 150px;
+}
+
+.special{
+    margin-top: 15px;
+}
+.img-rounded{
+    width: 65px;
+    height: 65px;
+}
+
+.coverimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.cover {
+    width: 80%;
+}
+.playlist {
+    color: #648f00;
+    font-size: 14px;
+}
+.frame {
+    width: 60%;
+}
+.iframe_config {
+    height: 110px;
+    border-style: none;
+}
