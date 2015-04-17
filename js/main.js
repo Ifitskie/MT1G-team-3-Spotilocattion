@@ -70,6 +70,7 @@
                 var width = $("#map").width();
                 map.setZoom(calculateZoomLevel(width, distance));
                 var playlists = JSON.parse(msg);
+                $("#allPlaylists").empty();
                 $.each(playlists, function (index, playlist) {
                     var pos = new google.maps.LatLng(playlist.latitude, playlist.longitude);
                     var link = "<img src='"+playlist.images[0].url+"' class='coverimg' alt=''/> <a href='details.php?user_id=" + playlist.owner.id + "&playlist_id=" + playlist.id + "'>" + playlist.name + "</a>";

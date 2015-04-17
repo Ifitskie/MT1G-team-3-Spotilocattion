@@ -59,7 +59,7 @@ $numrows = mysqli_num_rows($result);
 
 <br/>
 <br/>
-<table class="table" id="allPlaylists">
+<table class="table">
     <thead>
     <tr>
         <th>Cover</th>
@@ -67,28 +67,9 @@ $numrows = mysqli_num_rows($result);
         <th>Followers</th>
     </tr>
     </thead>
-<?php
+    <tbody id="allPlaylists">
 
-//    $playlists = array();
-//    while ($row = mysqli_fetch_assoc($result)) {
-//        $playlist = $spotify->getPlaylistById($accessToken, $row["user_id"], $row["playlist_id"]);
-//        $playlist->user_id = $row["user_id"];
-//        $playlist->playlist_id = $row["playlist_id"];
-//        array_push($playlists, $playlist);
-//    }
-//
-//    $total = $numrows;
-//    for ($i = 0; $i < $total; $i++) {
-//        $item = $playlists[$i];
-//        $html = "<tr>
-//                    <td><img src='%s' class='img-rounded' alt='image'/></td>
-//                    <td><a href='details.php?user_id=%s&playlist_id=%s'>%s</a></td>
-//                    <td>%s</td>
-//                 </tr>";
-//        echo sprintf($html,$item->images[2]->url, $item->owner->id, $item->id, $item->name, $item->followers->total);
-//
-//    }
-    ?>
+    </tbody>
 </table>
 
 <footer class="jumbotron">
