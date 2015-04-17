@@ -10,6 +10,9 @@ $profile = $spotify->getUserProfileByAccesToken($_SESSION["spotify_tokens"]->acc
 $gebruiker = $profile->id;
 $gebruikernaam = $profile->display_name;
 $image = $profile->images[0]->url;
+if (empty($image)){
+    $image = "assets/sad-forever-alone.png";
+}
 $accessToken = $_SESSION["spotify_tokens"]->access_token;
 
 
