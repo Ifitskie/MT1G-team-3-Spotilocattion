@@ -5,10 +5,9 @@ class Spotilib {
     private $apiUrl = "https://api.spotify.com";
 
     private $config = array(
-        "clientId" => "ee6053fa183e4cc2a5eb9eecf5bbef70",
-        "clientSecret" => "e590296f50c4440994423f36605fa61f",
-                 "redirectUrl" => "http://stud.cmi.hr.nl/0892682/Spotify/login.php"
-//         "redirectUrl" => "http://localhost/phplessen/jason/spotifyproject/login.php"
+        "clientId" => "",
+        "clientSecret" => "",
+                 "redirectUrl" => "your_url_here"
     );
 
     public function getLoginUrl() {
